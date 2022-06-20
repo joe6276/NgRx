@@ -1,0 +1,36 @@
+
+
+.p-name{
+    width:200px;
+    padding :10px 15px;
+    border:1px solid black;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+.err-p{
+    background-color: red;
+    width: 300px;
+    margin-left: 50px;
+    color: white;
+}
+.selected{
+    background-color: blue;
+    color: white;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.check{
+    display: flex;
+    gap:10px;
+    height: 20px;
+    border: 1px solid black;
+    align-items: center;
+    width:200px;
+}

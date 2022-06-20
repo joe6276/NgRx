@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class="left">
+            <p ngClass="err-p">
+            {{error$ |async }}
+            </p>
+        <a routerLinkActive="selected" (click)="onSelect(product.id)"
+        class="p-name" *ngFor="let product of products$ |async ">
+            {{product.product_name}}
+         
+        </a>
+      
+        <div class="check"> <p>Show in stock</p> <input type="checkbox" (change)="onChange()" [checked]="instock"> </div>
+    </div>
+    <div class="right">
+       <router-outlet></router-outlet>
+    </div>
+
+
+   
+</div>

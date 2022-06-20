@@ -1,0 +1,14 @@
+<div *ngIf="product$ |async as product">
+    
+<div class="container">
+
+    <div class="right">
+        <h1>{{product.product_name}}</h1>
+        <p>{{product.product_desc}}</p>
+        <label>{{product.price |currency}}</label>
+
+        <button (click)="edit()"> Edit Product</button>
+        <button (click)="delete()"> Delete</button>
+    </div>
+</div>
+</div>

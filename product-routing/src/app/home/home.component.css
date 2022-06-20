@@ -1,0 +1,20 @@
+.login{
+    background-color: coral;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.logout{
+    background-color: red;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    width: 150px;
+}
+.content{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}

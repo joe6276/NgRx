@@ -1,0 +1,25 @@
+.txt{
+    padding: 8px;
+
+}
+.content{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 150px;
+}
+.btn{
+    background-color: coral;
+    color: white;
+    border-style: none;
+    padding: 10px 15px;
+}
+
+.btns{
+    background-color: coral;
+    color: white;
+    border-style: none;
+    padding: 10px 15px;
+}

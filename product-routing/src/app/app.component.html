@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="navbar">
+
+    <a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="a-selected" routerLink="" >Home</a>
+    <a  [routerLinkActiveOptions]="{exact:true}" routerLinkActive="a-selected" routerLink="p/add">Add Product</a>
+    <a  [routerLinkActiveOptions]="{exact:true}" routerLinkActive="a-selected"  routerLink="p/products">Products</a>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+
+<div class="content">
+<p *ngIf="success$ |async as successMessage">
+{{successMessage}}
+</p>
+    <h1>Add a student</h1>
+    <div *ngIf="isinvalid">
+        <p [style]="{color:'red'}">* Please input all fields</p>
+        </div>
+        
+<label for=""> Product Name</label>
+<input  class='txt' #productname type="text" />
+<label for=""> Product Description</label>
+<input  class='txt' #productdescription type="text" />
+<label for=""> Product Price</label>
+<input  class='txt'   #price type="number" />
+
+
+<button (click)="addProduct(productname.value,productdescription.value,+price.value)" class="btn">Add Product</button>
+
+</div>

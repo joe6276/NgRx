@@ -1,0 +1,22 @@
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    gap:30px;
+    height: 10%;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.a-selected{
+    color: red;
+}

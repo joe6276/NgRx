@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    gap:30px
+}
+.left{
+    width:50%;
+    height:70%
+
+}
+.left img{
+    width: 100%;
+     height: 100%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+label{
+    background-color: coral;
+     padding :5px 10px;
+     color:white;
+    width:200px;
+    text-align: center;
+}
+button{
+    background-color: coral;
+     padding :5px 10px;
+     color:white;
+     width:200px;
+     border-style: none;
+}
